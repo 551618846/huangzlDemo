@@ -18,6 +18,8 @@ public class NumberDemo {
 
 	public static void main(String[] args) {
 		
+		double d_2_32 = powerOf2(32);
+		System.err.println(new Double(d_2_32).longValue());;
 		double d_2_62 = powerOf2(62);
 		System.err.println(d_2_62);;
 		System.err.println(new Double(d_2_62).longValue());;
