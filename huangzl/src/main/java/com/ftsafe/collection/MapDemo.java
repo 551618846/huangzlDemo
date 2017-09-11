@@ -6,7 +6,9 @@ package com.ftsafe.collection;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.NavigableMap;
+import java.util.Set;
 import java.util.TreeMap;
 import java.util.WeakHashMap;
 import java.util.concurrent.ConcurrentHashMap;
@@ -71,7 +73,7 @@ public class MapDemo {
 	public static void main(String[] args) {
 //		tree();
 		naviga();
-		
+		Set<Entry<String, String>> x = hash.entrySet();
 	}
 	
 	
